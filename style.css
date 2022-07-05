@@ -22,9 +22,9 @@ header
     justify-content: space-between;
     align-items: center;
 }
-header .ok
+header .logo
 {
-    color: rgb(39, 39, 39);
+    color: #272727;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
@@ -46,5 +46,5 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: rgb(39, 39, 39);
+    color: #272727;
 }
