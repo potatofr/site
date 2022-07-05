@@ -24,7 +24,7 @@ header
 }
 header .hi
 {
-    color: #ffff;
+    color: rgb(39, 39, 39);
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
@@ -46,5 +46,5 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #ffff;
+    color: rgb(39, 39, 39);
 }
