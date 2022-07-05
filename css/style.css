@@ -6,21 +6,42 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body
+{
+    min-height: 100vh;
+    background: #18191a;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    padding: 30px 100px;; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .tado
 {
+    color: #DD5E89;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     Letter-spacing: 2px;
-    background: #18191a;
 }
-nav{
+head ul
+{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content:  space-between;
 }
-
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
 h1{
     color: white;
     margin: 20px 0px 20px;
