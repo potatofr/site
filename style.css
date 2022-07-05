@@ -25,9 +25,6 @@ header
 header .hi
 {
     color: #ffff;
-    stroke: black;
-    text-shadow: black;
-    stroke-width: 1px;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
