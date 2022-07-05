@@ -11,3 +11,40 @@ body
     min-height: 100vh;
     background: linear-gradient(#F8C8DC,#A7C7E7);
 }
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;   
+    width: 100%;
+    padding: 30px 100px;; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    color: #ffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    Letter-spacing: 2px;
+}
+head ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #ffff;
+}
