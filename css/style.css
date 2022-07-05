@@ -9,7 +9,7 @@
 body
 {
     min-height: 100vh;
-    background: #272727;
+    background: #18191a;
 }
 header
 {
@@ -24,7 +24,7 @@ header
 }
 header .logo
 {
-    color: #272727;
+    color: #DD5E89;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
@@ -42,12 +42,7 @@ header ul li
     list-style: none;
     margin-left: 20px;
 }
-header ul li a
-{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #272727;
-}
+
 
 .gradient-button {
     margin: 10px;
