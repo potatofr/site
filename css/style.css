@@ -17,7 +17,6 @@ body
 {
     min-height: 100vh;
     background: #18191a;
-    display: grid;
     place-items: center;
     font-family: "Poppins", cursive;
     color: var(--clr-neon);
