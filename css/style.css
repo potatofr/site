@@ -83,9 +83,7 @@ body {
     right: 0;
     box-shadow: 0 0 2em 0.5em var(--clr-neon);
     opacity: 0;
-    background-color: var(--clr-neon);
-    z-index: -1;
-    transition: opacity 100ms linear;
+    transition: opacity 110ms linear;
   }
   
   .neon-button:hover,
