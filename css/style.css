@@ -41,7 +41,7 @@ body {
     padding-right: 10rem;
   }
   
-  .neon-button {
+  .tado-button {
     font-size: 4rem;
   
     display: inline-block;
@@ -59,7 +59,7 @@ body {
     position: relative;
   }
   
-  .neon-button::before {
+  .tado-button::before {
     pointer-events: none;
     content: "";
     position: absolute;
@@ -74,7 +74,7 @@ body {
     opacity: 0.7;
   }
   
-  .neon-button::after {
+  .tado-button::after {
     content: "";
     position: absolute;
     top: 0;
@@ -86,18 +86,18 @@ body {
     transition: opacity 110ms linear;
   }
   
-  .neon-button:hover,
-  .neon-button:focus {
+  .tado-button:hover,
+  .tado-button:focus {
     color: var(--clr-bg);
     text-shadow: none;
   }
   
-  .neon-button:hover::before,
-  .neon-button:focus::before {
+  .tado-button:hover::before,
+  .tado-button:focus::before {
     opacity: 1;
   }
-  .neon-button:hover::after,
-  .neon-button:focus::after {
+  .tado-button:hover::after,
+  .tado-button:focus::after {
     opacity: 1;
   }
   
