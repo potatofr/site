@@ -61,7 +61,7 @@ body {
   
   .neon-button::before {
     pointer-events: none;
-    content: "tado";
+    content: "";
     position: absolute;
     background: var(--clr-neon);
     top: 120%;
@@ -75,7 +75,7 @@ body {
   }
   
   .neon-button::after {
-    content: "tado";
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
