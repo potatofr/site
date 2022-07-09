@@ -116,6 +116,13 @@ clip-path: circle(20% at right at 10% 70%);
     font-weight: 300;
 }
 
+.container .card .content b
+{
+    font-size: 1em;
+    color: #8accd4;
+    font-weight: 300;
+}
+
 .container .card .content g
 {
     font-size: 1em;
