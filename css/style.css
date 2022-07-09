@@ -101,10 +101,25 @@ clip-path: circle(20% at right at 10% 70%);
     font-style: italic;
 }
 
-.container .card .content p
+.container .card .content h5
 {
     font-size: 1em;
     color: #FF6961;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.container .card .content p
+{
+    font-size: 1em;
+    color: #FDFD96;
+    font-weight: 300;
+}
+
+.container .card .content g
+{
+    font-size: 1em;
+    color: #FDFD96;
     font-weight: 300;
 }
 
