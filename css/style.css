@@ -109,6 +109,14 @@ clip-path: circle(20% at right at 10% 70%);
     font-style: italic;
 }
 
+.container .card .content h8
+{
+    font-size: 1em;
+    color: #8accd4;
+    font-weight: 300;
+    font-style: italic;
+}
+
 .container .card .content p
 {
     font-size: 1em;
