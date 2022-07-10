@@ -1,9 +1,11 @@
 <!doctype html>
 <html>
     <head>
+        
         <meta charset="utf-8">
         <title>tado</title> 
         <link rel="stylesheet" href="css/style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
@@ -33,6 +35,9 @@
                     <h8>Music Taste</h8>
                     <b>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ Duster, Carti, Kanye, Cheif Sosa, Tyler The Creator, TV Girl, RadioHead, Weezer, Nervana, Cigarettes After Sex, Eyedress, Yeat, Uzi, and more.</b>
                     <a href="#">Read More</a>
+                    <audio id="song" preload="auto">
+                        <source src="audio/song.mp3"></source>
+                    </audio>
                 </div>
             </div>
         </div>
@@ -40,6 +45,15 @@
         <script type="text/javascript" src="vanilla-tilt.js"></script>
         <script>
         VanillaTilt.init(document.querySelectorAll(".card") ,{max: 25, speed: 400, glare: true, "max-glare": 0.3,});
+        </script>
+        <script>
+		
+            var songOne = $("#song")[0];
+            $(".nav")
+        .mouseenter(function() {
+            songOne.play();
+        });
+        
         </script>
 
 <script>
