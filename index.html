@@ -36,6 +36,11 @@
                 </div>
             </div>
         </div>
+
+        <audio id="beep" preload="auto">
+            <source src="audio/song.mp3"></source>
+        </audio>
+
         <script type="text/javascript" src="vanilla-tilt.js"></script>
         <script>
         VanillaTilt.init(document.querySelectorAll(".card") ,{max: 25, speed: 400, glare: true, "max-glare": 0.3,});
@@ -60,6 +65,17 @@
        
     }
 </script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<script> 
+var songOne = $("#song")[0];
+$(".nav")
+.mouseenter(function() {
+songOne.play();
+});
+</script>
+
 
     </body>
 </html>
