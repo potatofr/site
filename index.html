@@ -65,6 +65,17 @@
     }
 </script>
 
+<script>
+        var audio = $("#audio")[0];
+    $("#div4").mouseenter(function() {
+    audio.play();
+     audio.loop = true;
+    });
+    $("#div4").mouseleave(function() {
+    audio.pause();
+    });
+</script>
+
     </body>
 </html>
    
